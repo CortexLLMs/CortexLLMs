@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CortexLLMs — Open-Source LLM Tools</title>
+    <meta name="description" content="CortexLLMs builds open-source tools for working with Large Language Models. RAG platforms, MCP agents, token compression, and AI orchestration.">
+    <meta name="keywords" content="LLM, AI, RAG, MCP, token compression, open source, machine learning, artificial intelligence">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #c9d1d9; }
+        .hero { text-align: center; padding: 100px 20px; background: linear-gradient(135deg, #161b22 0%, #0d1117 100%); }
+        .hero h1 { font-size: 3rem; margin-bottom: 20px; color: #58a6ff; }
+        .hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px; color: #8b949e; }
+        .btn { background: #238636; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 600; }
+        .btn:hover { background: #2ea043; }
+        .projects { max-width: 1200px; margin: 60px auto; padding: 0 20px; }
+        .projects h2 { text-align: center; font-size: 2rem; margin-bottom: 40px; color: #c9d1d9; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 24px; }
+        .card h3 { color: #58a6ff; margin-bottom: 10px; }
+        .card p { color: #8b949e; margin-bottom: 16px; }
+        .card a { color: #58a6ff; text-decoration: none; }
+        .topics { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+        .topic { background: #1f6feb33; color: #58a6ff; padding: 4px 10px; border-radius: 20px; font-size: 0.8rem; }
+        footer { text-align: center; padding: 40px; color: #484f58; border-top: 1px solid #30363d; margin-top: 60px; }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>CortexLLMs</h1>
+        <p>Open-source LLM tools for building smarter AI applications. RAG platforms, MCP agents, token compression, and AI orchestration.</p>
+        <a href="https://github.com/CortexLLMs" class="btn">View on GitHub</a>
+    </div>
+    
+    <div class="projects">
+        <h2>Our Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>AgentForge-Platform</h3>
+                <p>Unified token compression engine combining Headroom, FastMCP, mcp-agent, MetaGPT, and more into one platform.</p>
+                <a href="https://github.com/CortexLLMs/AgentForge-Platform">View Project →</a>
+                <div class="topics">
+                    <span class="topic">llm</span>
+                    <span class="topic">token-compression</span>
+                    <span class="topic">mcp</span>
+                    <span class="topic">agents</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>headroom</h3>
+                <p>Compress LLM outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer for JSON.</p>
+                <a href="https://github.com/CortexLLMs/headroom">View Project →</a>
+                <div class="topics">
+                    <span class="topic">llm</span>
+                    <span class="topic">token-compression</span>
+                    <span class="topic">rag</span>
+                    <span class="topic">mcp</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>fastmcp</h3>
+                <p>The fast, Pythonic way to build MCP servers and clients for LLM applications.</p>
+                <a href="https://github.com/CortexLLMs/fastmcp">View Project →</a>
+                <div class="topics">
+                    <span class="topic">mcp</span>
+                    <span class="topic">python</span>
+                    <span class="topic">llm</span>
+                    <span class="topic">agents</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>mcp-agent</h3>
+                <p>Build effective agents using Model Context Protocol and simple workflow patterns.</p>
+                <a href="https://github.com/CortexLLMs/mcp-agent">View Project →</a>
+                <div class="topics">
+                    <span class="topic">mcp</span>
+                    <span class="topic">agents</span>
+                    <span class="topic">llm</span>
+                    <span class="topic">workflow</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>rag-platform</h3>
+                <p>RAG Platform — FastAPI + Qdrant + Supabase + OpenAI for production-ready retrieval augmented generation.</p>
+                <a href="https://github.com/CortexLLMs/rag-platform">View Project →</a>
+                <div class="topics">
+                    <span class="topic">rag</span>
+                    <span class="topic">langchain</span>
+                    <span class="topic">openai</span>
+                    <span class="topic">qdrant</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>lasqAI</h3>
+                <p>Multi-model AI platform with comparative synthesis across LLMs.</p>
+                <a href="https://github.com/CortexLLMs/lasqAI">View Project →</a>
+                <div class="topics">
+                    <span class="topic">llm</span>
+                    <span class="topic">multi-model</span>
+                    <span class="topic">ai</span>
+                    <span class="topic">synthesis</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Built with by the CortexLLMs community | <a href="https://github.com/CortexLLMs" style="color: #58a6ff;">GitHub</a></p>
+    </footer>
+</body>
+</html>
